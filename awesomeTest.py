@@ -4,3 +4,7 @@ def test(Input):
         assert (Input*2).split("|")[2] == "Awesome"
     except:
         assert False
+
+        
+def answer():
+    return "Awesome|Awesome|"
